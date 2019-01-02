@@ -1,6 +1,6 @@
 Installation
-![login](login.jpg)
-![login](user.jpg)
+https://github.com/xiaoxuan6/login/blob/master/login.png
+https://github.com/xiaoxuan6/login/blob/master/user.png
 
 First, install dependencies:
 
