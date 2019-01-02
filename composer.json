@@ -1,6 +1,6 @@
 {
     "name": "james.xue/login",
-    "description": "登录时判断用户是否启用状态",
+    "description": "laravel-admin 登录时判断用户是否启用状态",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "login"],
     "homepage": "https://github.com/xiaoxuan6/login",
