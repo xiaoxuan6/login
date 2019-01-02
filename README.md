@@ -1,4 +1,7 @@
 Installation
+![login](login.jpg)
+![login](user.jpg)
+
 First, install dependencies:
 
     1、composer require james.xue/login
