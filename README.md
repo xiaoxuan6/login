@@ -1,8 +1,9 @@
-Installation
+示例：
 ![Image text](https://github.com/xiaoxuan6/login/blob/master/login.png)
 
 ![Image text](https://github.com/xiaoxuan6/login/blob/master/user.png)
 
+Installation
 First, install dependencies:
 
     1、composer require james.xue/login
