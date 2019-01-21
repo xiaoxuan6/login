@@ -11,6 +11,16 @@ First, install dependencies:
     2、php artisan migrate
  
     
+设置语言
+    
+    中文：修改resources/lang/zh-CN 添加
+    
+        'enabled'                => '状态',
+        
+    英文：修改resources/lang/en 添加
+        
+        'enabled'                => 'status',
+        
 Configuration
  In the extensions section of the config/admin.php file, add some configuration that belongs to this extension.
  
