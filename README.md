@@ -13,11 +13,18 @@ First, install dependencies:
     
 设置语言
     
-    中文：修改resources/lang/zh-CN 添加
+   1、中文：修改resources/lang/zh-CN 添加如下代码，创建validation.php
     
         'enabled'                => '状态',
         
-    英文：修改resources/lang/en 添加
+   validation.php代码如下
+    
+    <?php
+     return [
+         'exists' => '该用户已停用!',
+     ];
+        
+   2、英文：修改resources/lang/en 添加
         
         'enabled'                => 'status',
         
