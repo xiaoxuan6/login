@@ -13,7 +13,7 @@ First, install dependencies:
     
 设置语言
     
-   1、中文：修改resources/lang/zh-CN 添加如下代码，创建validation.php
+   1、中文：修改resources/lang/zh-CN/admin.php 添加如下代码，创建validation.php
     
         'enabled'                => '状态',
         
