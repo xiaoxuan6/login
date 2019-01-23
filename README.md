@@ -24,7 +24,7 @@ First, install dependencies:
          'exists' => '该用户已停用!',
      ];
         
-   2、英文：修改resources/lang/en 添加
+   2、英文：修改resources/lang/en/admin.php 添加
         
         'enabled'                => 'status',
         
