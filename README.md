@@ -10,23 +10,7 @@ First, install dependencies:
     
     2、php artisan migrate
  
-    
-设置语言
-    
-   1、中文：修改resources/lang/zh-CN/admin.php 添加如下代码，创建validation.php
-    
-        'enabled'                => '状态',
-        
-   validation.php代码如下
-    
-    <?php
-     return [
-         'exists' => '该用户已停用!',
-     ];
-        
-   2、英文：修改resources/lang/en/admin.php 添加
-        
-        'enabled'                => 'status',
+    3、php artisan vendor:publish --provider=Encore\Login\LoginServiceProvider
         
 Configuration
  In the extensions section of the config/admin.php file, add some configuration that belongs to this extension.
