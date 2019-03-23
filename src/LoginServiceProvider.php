@@ -19,6 +19,8 @@ class LoginServiceProvider extends ServiceProvider
             $this->loadMigrationsFrom($migrations);
         }
 
+        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'login');
+
         $this->app->booted(function () {
             Login::routes(__DIR__.'/../routes/web.php');
         });
