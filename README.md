@@ -10,7 +10,7 @@ First, install dependencies:
     
     2、php artisan migrate
  
-    3、php artisan vendor:publish --provider=Encore\Login\LoginServiceProvider
+    3、php artisan vendor:publish --tag=login
         
 Configuration
  In the extensions section of the config/admin.php file, add some configuration that belongs to this extension.
